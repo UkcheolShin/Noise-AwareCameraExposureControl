@@ -10,7 +10,7 @@ Using this novel metric, we propose a real-time and fully automatic exposure and
   <img src="media/NMcontrol2.gif" width="400" />
 </p>
 
-[**[Full paper]**](https://arxiv.org/abs/1907.12646) [**[YouTube]**](https://www.youtube.com/watch?v=9ILFITEwNX0)
+[**[Full paper]**](https://arxiv.org/abs/1907.12646) [**[YouTube]**](https://www.youtube.com/watch?v=9ILFITEwNX0) [**[Project Page]**](https://sites.google.com/view/noise-aware-exposure-control/%ED%99%88)
 
 ## Dataset
 <p align="center">
