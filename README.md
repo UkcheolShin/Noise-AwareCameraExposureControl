@@ -68,13 +68,22 @@ run "FeatureMatching.m"
 This matlab code conducts a experiment about a feature extraction & matching.
 To do this experiment, you need to install OpenCV on matlab by following [this link](https://github.com/kyamagu/mexopencv/wiki/Installation-%28Windows%2C-MATLAB%2C-OpenCV-3%29).
 
+## C++ version code
+The C++ code "NoiseAwareAE_Code_cpp.zip" includes the c++ version of the proposed image quality assessment metric and the Nelder-Mead optimization based control algorithm.
+The implemented code is designed to operate on a Flir blackfly color camera in a moving scenario.
+Therefore, the NM optimization part's implementation differs from the Matlab version.
+Also, this code is not well-organized and has dependencies on OpenCV, spinnaker, and boost library.
+The user needs to adjust the dependency for target hardware or selectively use image quality assessment metric C++ code or other C++ code.
+
 ## Citation
 Please cite the following paper if you use our work or parts of this code in your own work.
 ```
-@article{shin2019camera,
+@inproceedings{shin2019camera,
   title={Camera exposure control for robust robot vision with noise-aware image quality assessment},
   author={Shin, Ukcheol and Park, Jinsun and Shim, Gyumin and Rameau, Francois and Kweon, In So},
-  journal={arXiv preprint arXiv:1907.12646},
-  year={2019}
+  booktitle={2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={1165--1172},
+  year={2019},
+  organization={IEEE}
 }
 ```
